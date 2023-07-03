@@ -1,5 +1,6 @@
 # Bike Sharing Assignment
-> Build a multiple linear regression model for the prediction of demand for shared bikes. (using supplied data of US bike-sharing provider BoomBikes)
+> Build a multiple linear regression model for the prediction of demand for shared bikes.
+> (using supplied data.csv of US bike-sharing provider BoomBikes)
 
 
 ## Table of Contents
@@ -44,13 +45,13 @@
 
 - What is the dataset that is being used?
 
-    - Bike Sharing dataset and Data dictionary was provided to student.
+    - Bike Sharing dataset (data.csv) and Data dictionary was provided to student.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
 1) Which variables are significant in predicting the demand for shared bikes?
-   - The demand of shared bikes could be predicted by year 2019, temperature, windspeed, season (spring, winter), months (july, september), Day of Week (sunday) and weather situation(ightrainsnow, misty).
+   - The demand of shared bikes could be predicted by year 2019, temperature, windspeed, season (spring, winter), months (july, september), Day of Week (sunday) and weather situation(lightrainsnow, misty).
 
 2) How well those variables describe the bike demands?
     - The predictor variable selection process involved usage of Recursive Feature Elimination and Manual Feature selection based on multicollinearity and statistical significance of model.
